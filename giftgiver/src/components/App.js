@@ -35,7 +35,10 @@ export default class App extends Component {
           <h2>Hello world</h2>
           <div className='gift-list'>
             {
-              this.state.gifts.map(gift => <Gift key={gift.id}/>)
+              this.state.gifts.map(gift => <Gift
+                                            key={gift.id}
+                                            gift={gift}
+                                            removeGift={this.removeGift}/>)
             }
           </div>
           <Button className='btn-add' onClick={this.addGift}>Add Gift</Button>
