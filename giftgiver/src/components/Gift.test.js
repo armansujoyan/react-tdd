@@ -17,7 +17,7 @@ describe('Gift component tests', () => {
     const person = 'Sister';
 
     beforeEach(() => {
-      gift.find('.input-person').simulate('chnage', { target: { value: person}});
+      gift.find('.input-person').simulate('change', { target: { value: person}});
     })
 
     it('Updates the person in state', () => {
