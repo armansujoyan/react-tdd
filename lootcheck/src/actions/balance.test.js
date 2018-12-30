@@ -16,3 +16,10 @@ it('creates an action to deposit to a balance', () => {
 
   expect(actions.deposit(deposit)).toEqual(expectedAction);
 });
+
+it('creates a withdraw action', () => {
+  const withdraw = 10;
+
+  const expectedAction = { type: constants.WITHDRAW, withdraw};
+  expect(actions.withdraw(withdraw)).toEqual(expectedAction);
+})
