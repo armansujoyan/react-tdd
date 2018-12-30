@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Form, FormGroup, FormControl, ContorlLabel, Button} from 'react-bootstrap';
+import { Form, FormGroup, FormControl, ControlLabel, Button} from 'react-bootstrap';
 
 export default class Gift extends Component {
   constructor(){
@@ -16,7 +16,7 @@ export default class Gift extends Component {
       <div>
         <Form>
           <FormGroup>
-            <ContorlLabel>Person</ContorlLabel>
+            <ControlLabel>Person</ControlLabel>
             <FormControl className='input-person'
               onChange={event => this.setState({ person: event.target.value })}/>
           </FormGroup>

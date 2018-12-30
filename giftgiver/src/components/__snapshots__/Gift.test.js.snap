@@ -26,9 +26,12 @@ ShallowWrapper {
         <FormGroup
           bsClass="form-group"
         >
-          <UNDEFINED>
+          <ControlLabel
+            bsClass="control-label"
+            srOnly={false}
+          >
             Person
-          </UNDEFINED>
+          </ControlLabel>
           <FormControl
             bsClass="form-control"
             className="input-person"
@@ -48,9 +51,12 @@ ShallowWrapper {
         "children": <FormGroup
           bsClass="form-group"
         >
-          <UNDEFINED>
+          <ControlLabel
+            bsClass="control-label"
+            srOnly={false}
+          >
             Person
-          </UNDEFINED>
+          </ControlLabel>
           <FormControl
             bsClass="form-control"
             className="input-person"
@@ -70,9 +76,12 @@ ShallowWrapper {
         "props": Object {
           "bsClass": "form-group",
           "children": Array [
-            <UNDEFINED>
+            <ControlLabel
+              bsClass="control-label"
+              srOnly={false}
+            >
               Person
-            </UNDEFINED>,
+            </ControlLabel>,
             <FormControl
               bsClass="form-control"
               className="input-person"
@@ -86,13 +95,15 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {
+              "bsClass": "control-label",
               "children": "Person",
+              "srOnly": false,
             },
             "ref": null,
             "rendered": "Person",
-            "type": undefined,
+            "type": [Function],
           },
           Object {
             "instance": null,
@@ -130,9 +141,12 @@ ShallowWrapper {
           <FormGroup
             bsClass="form-group"
           >
-            <UNDEFINED>
+            <ControlLabel
+              bsClass="control-label"
+              srOnly={false}
+            >
               Person
-            </UNDEFINED>
+            </ControlLabel>
             <FormControl
               bsClass="form-control"
               className="input-person"
@@ -152,9 +166,12 @@ ShallowWrapper {
           "children": <FormGroup
             bsClass="form-group"
           >
-            <UNDEFINED>
+            <ControlLabel
+              bsClass="control-label"
+              srOnly={false}
+            >
               Person
-            </UNDEFINED>
+            </ControlLabel>
             <FormControl
               bsClass="form-control"
               className="input-person"
@@ -174,9 +191,12 @@ ShallowWrapper {
           "props": Object {
             "bsClass": "form-group",
             "children": Array [
-              <UNDEFINED>
+              <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+              >
                 Person
-              </UNDEFINED>,
+              </ControlLabel>,
               <FormControl
                 bsClass="form-control"
                 className="input-person"
@@ -190,13 +210,15 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "class",
               "props": Object {
+                "bsClass": "control-label",
                 "children": "Person",
+                "srOnly": false,
               },
               "ref": null,
               "rendered": "Person",
-              "type": undefined,
+              "type": [Function],
             },
             Object {
               "instance": null,
